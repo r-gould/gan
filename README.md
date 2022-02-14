@@ -1,2 +1,2 @@
 # generative_adversarial_network
-An implementation of the paper 'Generative Adversarial Nets' in PyTorch.
+**Paper**: https://arxiv.org/pdf/1406.2661.pdf
