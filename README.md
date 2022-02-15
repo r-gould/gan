@@ -9,6 +9,6 @@ The GAN was demonstrated on the MNIST dataset (see main.py), results are below.
 
 After 200 epochs:
 
-[loss graph]
+![image](/images/loss.png)
 
-[generated images]
+![image](/images/mnist.png)
