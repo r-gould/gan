@@ -28,11 +28,10 @@ class GAN:
                     yield images
 
         data_gen = sample_batch()
-        batches_done = 0
-        epochs_done = 0
-        done_epoch = False
+        batches_done, epochs_done = 0, 0
         epoch_g_losses, epoch_d_losses = [], []
         g_losses, d_losses = [], []
+        done_epoch = False
 
         while epochs_done < epochs:
 
