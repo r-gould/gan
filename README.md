@@ -5,9 +5,7 @@ An implementation of the paper 'Generative Adversarial Nets' in PyTorch.
 
 The GAN was demonstrated on the MNIST dataset (see main.py), results are below.
 
-# Results
-
-After 200 epochs:
+# Results (200 epochs)
 
 ![image](/images/loss.png)
 
