@@ -11,4 +11,4 @@ After 200 epochs:
 
 ![image](/images/loss.png)
 
-![image](/images/mnist.png)
+                ![image](/images/mnist.png)
