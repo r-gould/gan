@@ -31,7 +31,7 @@ def main():
 
     gan = GAN(generator, discriminator, k=1)
     gan.compile(g_optim, d_optim)
-    g_losses, d_losses = gan.train(train_dl, 1, 64)
+    g_losses, d_losses = gan.train(train_dl, 200, 64)
 
     plot_loss(g_losses, d_losses)
     visualize(generator, (5, 4), (height, width))
